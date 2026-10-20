@@ -3,16 +3,16 @@ player_score: int = 0
 computer_score: int = 0
 
 choices = ["rock","paper","scissors"]
-computer = random.choice(choices)
-player = input("choose rock, paper, scissors: ") 
-print(computer)
+# computer = random.choice(choices)
+# player = input("choose rock, paper, scissors: ") 
+# print(computer)
 
-if player == "rock" or player == "paper" or player == "scissors":
-    print("you win!")
-elif player == computer:
-    print("it a tie!")
-else:
-    print("computer win!")
+# if player == "rock" or player == "paper" or player == "scissors":
+#     print("you win!")
+# elif player == computer:
+#     print("it a tie!")
+# else:
+#     print("computer win!")
 
 
 while True:
